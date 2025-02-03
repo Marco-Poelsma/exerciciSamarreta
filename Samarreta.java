@@ -11,6 +11,9 @@ public class Samarreta {
             System.out.println("No hi ha cap samarreta disponible");
         }
     }
+    public static void toggleDisponible() {
+        disponible = !disponible;
+    }
 
     public static String getTalla(byte talla) {
         switch (talla) {
