@@ -1,7 +1,7 @@
 public class Samarreta {
     String color;
     byte talla; // Va de 0 (XS) a 5 (XXL)
-    private static boolean disponible = true;
+    private static boolean disponible = false;
 
     public void provar() {
         System.out.println("T'estàs provant una samarreta de color " + color + " i talla " + Samarreta.getTalla(talla));
